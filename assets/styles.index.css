@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.lobster-two-regular-italic {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Reset CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "Lobster Two", sans-serif;
+    color: #6f186c;
+    padding: 10px;
+
+}
+
+header {
+    background-color: #ffb3b3;
+    border-radius: 6px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical */
+    align-items: center; /* horizontal */
+}
+#principal {
+    border-radius: 6px;
+    height: 800px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+main {
+    background-color: #92fbfb;
+    border-radius: 6px;
+    height: 100%;
+    width: 74.5%;
+}
+
+aside {
+    background-color: #11076d;
+    border-radius: 6px;
+    height: 100%;
+    width: 25%;
+}
+footer{
+    background-color: #eba0a0;
+    border-radius: 6px;
+    height: 100px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center; /*vertical */
+    align-items: center; /* horizontal */
+}
+
+footer p {
+    color: #f1f1f1;
+    font-size: 1.2rem;
+text-decoration: none;
+font-weight: 500;
+}
+
+
+
